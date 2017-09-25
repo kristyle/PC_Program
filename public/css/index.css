@@ -1,0 +1,259 @@
+body {
+    color: #666;
+    font-style: normal;
+    font-family: "SourceHanSansCN-Light", "Lantinghei SC", "Open Sans", "Hiragino Sans GB", "Microsoft YaHei", "STHeiti-Light", "WenQuanYi Micro Hei", "Arial", "SimSun", "sans-serif";
+    font-size: 14px;
+    line-height: 1.45;
+    background-color: #f8f8f8;
+}
+.row {
+    margin-top: 50px;
+}
+.navbar {
+    border: 0;
+}
+.navbar-default {
+    padding: 15px 0;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .1);
+    margin-bottom: 0;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, .98);
+}
+.logo {
+    background-repeat: no-repeat;
+    background-image: url(../img/logo.svg);
+    background-size: 50px 50px !important;
+    width: 50px;
+    height: 50px;
+    margin-top: -15px;
+}
+.logo-pc {
+    background-color: rgba(59, 190, 122, .9);
+    margin-top: -30px;
+    width: 130px;
+    height: 80px;
+    padding-top: 10px;
+}
+.icon-pc {
+    background-repeat: no-repeat;
+    background-image: url(../img/logo-pc.svg);
+    background-size: 80px 56px;
+    width: 80px;
+    height: 56px;
+    margin: 0 auto;
+    background-position: center;
+    text-align: center;
+}
+.navbar-default .navbar-nav > .click > a {
+    color: #E94840;
+}
+.navbar-default .navbar-nav > .click > a:hover {
+    opacity: 1;
+}
+.navbar-default .navbar-nav > li > a {
+    padding: 16px 20px 5px;
+    /*padding-right: 23px;*/
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    color:#E94840 ;
+    transition: 0.5s;
+}
+.btn-down {
+    color: #3bbe7a;
+    background-color: transparent;
+    border: 1px solid #3bbe7a;
+    font-size: 12px;
+    padding: 6px 25px;
+    border-radius: 2px;
+    display: inline-block;
+}
+/* 轮播图 */
+.carousel img {
+    width: 100%;
+    height: 420px;
+}
+.carousel-caption {
+    margin-bottom: 20%;
+}
+.carousel-caption h3,.carousel-caption p {
+    text-align: center;
+    color: #fff;
+}
+.carousel-caption h3 {
+    font-size: 54px;
+    font-weight: normal;
+}
+.carousel-caption p {
+    font-size: 20px;
+    font-weight: lighter;
+}
+/* 标题 */
+.line {
+    border-top: 1px solid #3bbe7a;
+    width: 30px;
+    margin: 20px auto 40px;
+}
+.col-div {
+    padding: 25px;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgba(59, 190, 122, .8);
+    color: rgba(255, 255, 255, .8);
+    border-radius: 2px;
+    padding: 18% 10%;
+    margin-bottom: 20px;
+}
+.pu-logo-icon {
+    background-image: url(../img/puhui.svg);
+    background-repeat: no-repeat;
+    background-size: 110px 110px;
+    width: 110px;
+    height: 110px;
+}
+.chuanxin-logo-icon {
+    background-image: url(../img/chuangxin.svg);
+    background-repeat: no-repeat;
+    background-size: 110px 110px;
+    width: 110px;
+    height: 110px;
+}
+.chonggou-logo-icon {
+    background-image: url(../img/chonggou.svg);
+    background-repeat: no-repeat;
+    background-size: 110px 110px;
+    width: 110px;
+    height: 110px;
+}
+.ac-figure-icon {
+    margin-left: auto;
+    margin-right: auto;
+}
+.col-div h4 {
+    color: #fff;
+    margin-top: 9%;
+    margin-bottom: 5%;
+}
+
+.container-fluid .row {
+    background: url(../img/about-yuanjing.jpg) 50% 0%; height: 420px;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 70px 20px;
+}
+.thyj-logo-icon {
+    background-repeat: no-repeat;
+    background-image: url(../img/lthyj-ogo.svg);
+    background-size: 100px 100px;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+footer.navbar {
+    margin-bottom: 0px;
+}
+.navbar-inverse {
+    padding: 46.5px 0;
+}
+.bor-line {
+    width: 1px;
+    height: 10px;
+    border-right: 1px solid rgba(170, 170, 170, .5);
+    margin-top: 6px;
+    float: left;
+}
+.footer-legal-links {
+    margin-bottom: 10px;
+    overflow: hidden
+}
+.ac-gf-footer-legal {
+    float: left
+}
+.footer-legal-links a {
+    margin-right: 15px;
+    padding-left: 15px;
+    white-space: nowrap;
+    color: rgba(170, 170, 170, .8);
+    float: left
+}
+.footer-legal-links a:first-child {
+    padding-left: 0
+}
+.footer-legal-links a.nob {
+    border: none
+}
+.footer-legal-links a:hover {
+    text-decoration: underline;
+    color: #aaa
+}
+.footer-weixin {
+    float: right;
+    position: relative;
+    margin-right: 20px
+}
+.footer-beizhu {
+    font-size: 12px;
+    color: rgba(102, 102, 102, .8)
+}
+.shouji-logo-icon {
+    background-repeat: no-repeat;
+    background-image: url("../img/shouji-logo-icon.svg");
+    background-size: 42px 42px;
+    height: 42px;
+    width: 42px;
+    opacity: .8;
+    cursor: pointer;
+    margin: 0;
+    -webkit-transition: all .5s ease-in;
+    -moz-transition: all .5s ease-in;
+    -o-transition: all .5s ease-in;
+    transition: all .5s ease-in
+}
+.weixin-logo-icon {
+    background-repeat: no-repeat;
+    background-image: url("../img/wewix-ico.svg");
+    background-size: 42px 42px;
+    height: 42px;
+    width: 42px;
+    opacity: .8;
+    cursor: pointer;
+    margin: 0;
+    -webkit-transition: all .5s ease-in;
+    -moz-transition: all .5s ease-in;
+    -o-transition: all .5s ease-in;
+    transition: all .5s ease-in;
+}
+@media (min-width: 768px) {
+    .navbar-brand {
+        padding: 15px 0px;
+    }
+    .navbar>.container .navbar-brand {
+        margin-left: 0px;
+    }
+    .navbar-default .navbar-collapse {
+        margin-right: 0px;
+    }
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-collapse ul li a {
+        border-bottom: 1px solid #e7e7e7;
+        margin: 16px 35px 5px 30px;
+        padding: 0 0 15px;
+        text-align: center;
+        color: #666;
+    }
+    .carousel-caption h3 {
+        font-size: 28px;
+        font-weight: normal;
+    }
+    .carousel-caption p {
+        font-size: 16px;
+        font-weight: lighter;
+    }
+}
+@media only screen and (max-width: 1068px) and (min-width: 768px) {
+    .col-div {
+        height: 304px;
+    }
+}

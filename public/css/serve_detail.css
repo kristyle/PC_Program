@@ -1,0 +1,132 @@
+.container_content h4{
+    margin-bottom: 50px;
+}
+
+/*右边区域*/
+.divright{
+    margin-top: -25px;
+}
+.divright h3{
+    font-size: 20px;
+    padding-left: 10px;
+    border-bottom: 1px solid #e5e5e5;
+    height: 60px;
+    line-height: 60px;
+    margin: 0;
+    text-align: left;
+}
+.right_first{
+    width: 230px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+.right_first img{
+    width: 80px;
+    height: 80px;
+    margin: 40px 50px;
+    margin-bottom: 10px;
+}
+.right_first p{
+    text-align: left;
+    padding: 0 10px;
+    line-height: 36px;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+.right_first p:nth-of-type(1){
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.right_first p i{
+    list-style: none;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    float: right;
+    color:#fb474f;
+}
+/*左边区域*/
+/*上半部*/
+.container_left{
+    float: left;
+    width: 79%;
+    margin-top: -45px;
+    margin-bottom: 50px;
+
+}
+.bg_color{
+    background-color: #FFFFFF;
+    border: 1px solid #e5e5e5;
+    padding: 30px 25px;
+}
+.left_top img{
+    width: 160px;
+    height: 160px;
+    float: left; ;
+
+}
+.left_top_content{
+    float: left;
+    margin-left: 32px;
+}
+.left_top_content p{
+    color: #0f0f0f;
+    padding-bottom: 10px;
+}
+.left_top_content p i{
+    color: red;
+    margin-left: 10px;
+}
+.left_top_right{
+    float: right;
+    margin-right: 20px;
+    text-align: center;
+}
+.left_top_right img{
+    width: 115px;
+    height: 115px;
+    margin-bottom: 5px;
+}
+.left_top_right p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #0f0f0f;
+}
+.row{
+    margin-top: 20px;
+}
+
+/*下半部*/
+.serve_detail_text b{
+    width: 66px;
+    border-bottom: 3px solid #fb474f;
+    padding: 5px;
+    display: block;
+}
+/*pre{
+    line-height: 24px;
+    margin: 15px 0 5px;
+    font-size: 14px;
+    background-color: #fff;
+    border: none;
+    border-radius: 0;
+    display: block;
+    padding: 9.5px;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    overflow: auto;
+    white-space: normal;
+
+}*/
+b{
+    color: #0f0f0f;
+}
+
+
+
+

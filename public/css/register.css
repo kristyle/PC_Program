@@ -1,0 +1,102 @@
+.wrap{
+    margin: 200px auto;
+    width: 333px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+}
+.content{
+    width: 301px;
+    margin-bottom: 19px;
+}
+.content h2{
+    background: url("../img/login/houtai-logo.png") center no-repeat;
+    height: 70px;
+    line-height: 70px;
+    text-indent: -9999px;
+    background-size: 290px;
+    margin-top:0;
+}
+/*用户名*/
+.user_reg{
+    display: inline-block;
+    width: 100%;
+    height: 53px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.user_reg input{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+/*输入*/
+.content>input{
+margin: 10px auto;
+}
+
+/*验证码*/
+.verify{
+    border: 1px solid #CCCCCC;
+    height: 100px;
+    margin: 10px auto;
+}
+.right{
+    width: 203px;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    border-right: 1px solid #CCCCCC;
+
+}
+.right img,input{
+    width: 100%;
+    height: 50px;
+
+}
+.right>input{
+    border: none;
+    border-top: 1px solid #CCCCCC;
+    line-height: 50px;
+    height: 50px;
+    padding-left: 10px;
+}
+.left{
+    width: 96px;
+    height: 100%;
+    float: right;
+    line-height: 100px;
+    text-align: center;
+    background-color: #EEEEEE;
+    border-left: 1px solid #CCCCCC;
+}
+
+/*协议*/
+.agreement{
+    width: 100%;
+    height: 20px;
+    margin-bottom: 30px;
+}
+.agreement input{
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+}
+.agreement input,a{
+    display: inline-block;
+    float: left;
+}
+
+/*注册*/
+.btn-lg{
+    padding: 10px 132px;
+    margin-bottom: 20px;
+}
+.content a{
+    color: #0f0f0f;
+}

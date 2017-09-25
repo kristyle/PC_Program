@@ -1,0 +1,128 @@
+/*#wrap{
+    width: 100%;
+    min-height: 100%;
+}*/
+/*服务项*/
+.container_content{
+    margin-top: 80px;
+    padding-bottom: 100%;
+    /*overflow: hidden;*/
+}
+.container-height{
+    /*overflow: hidden;*/
+}
+.container_content h4{
+    margin: 30px auto;
+}
+.content_serve{
+    float: left;
+    width: 80%;
+    height: 100%;
+    /*height: 345px;*/
+    overflow: hidden;
+}
+.content_serve div{
+    width:25% ;
+    float: left;
+    height: 100%;
+    overflow: hidden;
+}
+.content_serve ul:hover{
+    box-shadow: 5px 5px 10px #ccc ;
+}
+.content_serve ul{
+    margin: 5px;
+    border: 1px solid gainsboro;
+    list-style: none;
+    padding: 8px;
+    text-align: left;
+}
+.content_serve ul li h4{
+    color: #0f0f0f;
+    font-weight: bold;
+}
+.content_serve ul li p{
+    margin: 2px auto;
+}
+.content_serve ul img{
+    width: 100%;
+}
+.content_serve ul li button{
+    margin-left: 25px;
+}
+.content_serve a{
+    text-decoration: none;
+    color: grey;
+}
+.content_serve a:hover{
+    color: grey;
+}
+.serve_list li:nth-child(2) p{
+    height: 24px;
+
+}
+.serve_list li:nth-child(2) p:nth-child(2){
+    margin-bottom: 10px;
+    margin-top:10px
+}
+.serve_list li:nth-child(2) img{
+    width: 18px;
+    height: 17px;
+}
+/*查看商家*/
+.btn-pad{
+    padding: 10px 40px ;
+    font-size: 16px ;
+    color: grey;
+}
+.check_merchant{
+    margin-top: 60px;
+    margin-bottom: 101px;
+    margin-left: 370px;
+}
+/*服务右边*/
+.divright{
+    margin-top: 5px;
+    float: right;
+    width:20%;
+}
+.erweima {
+    position: relative;
+    width: 230px;
+    height: 290px;
+    background: url("../img/serve/tuijianfuwushang_06.jpg")center center no-repeat ;
+    margin-top: 10px;
+}
+.erweima img{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-left: -65px;
+    margin-top: -95px;
+
+}
+
+/*footer*/
+.footer{
+    margin-top: -100%
+}
+.city{
+    margin-top: 80px;
+}
+.hot_city{
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 60px;
+    color: #0f0f0f;
+}
+.city_item{
+    float: left;
+}
+.city_item a{
+    color: grey;
+    font-size: 16px;
+    padding-left: 56px;
+}
+
+

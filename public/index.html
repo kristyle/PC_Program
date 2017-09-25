@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PC项目_首页</title>
+    <!--  -->
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/reset.css">
+
+    <!--[if lt IE 9]>
+    <script src="bootstrap/js/html5shiv.min.js"></script>
+    <script src="bootstrap/js/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+
+    </style>
+</head>
+<body>
+<!-- 导航条 -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container container-height">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/index.html">
+                <img alt="Brand" src="img/logo.png">
+            </a>
+        </div>
+        <div></div>
+        <div id="collapse" class="collapse navbar-collapse navbar-right navbar-menu">
+            <ul class="nav navbar-nav">
+                <li class="position">
+                    <a href="#">
+                        <img src="img/citypoint.png" alt="">
+                        <span>北京</span>
+                        <span>切换城市</span>
+                    </a>
+                </li>
+                <li class="click"><a href="#">首页</a></li>
+                <li><a href="#">下载APP</a></li>
+                <li><a href="/serve.html">服务商</a></li>
+                <li><a href="#">商家入驻</a></li>
+                <li><a href="#">关于我们</a></li>
+            </ul>
+            <a class="btn btn-default btn-danger navbar-btn hidden-xs" href="/login.html">商家登录</a>
+        </div>
+    </div>
+
+</nav>
+<!-- 轮播图 -->
+<div id="carousel-example-generic" class="carousel slide  carousel-top" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active" id="item1"></div>
+        <div class="item" id="item2"></div>
+        <div class="item" id="item3"></div>
+    </div>
+    <div class="banner">
+        <ul class="banner_list">
+            <li class="banner_item">
+                <a href="/serve_item.html"></a>
+                <span>家庭保洁</span>
+                <span class="glyphicon glyphicon-menu-right"></span>
+                <ul class="banner_list">
+                    <li>
+                        <a href="#">
+                            <span>小时工</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>开荒保洁</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>擦玻璃</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>深度保洁</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>家居养护</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>杀虫除螨</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="banner_item">
+                <a href="#"></a>
+                <span>上门按摩</span>
+                <span class="glyphicon glyphicon-menu-right"></span>
+            </li>
+            <li class="banner_item">
+                <a href="#"></a>
+                <span>上门维修</span>
+                <span class="glyphicon glyphicon-menu-right"></span>
+            </li>
+            <li class="banner_item">
+                <a href="#"></a>
+                <span>家电清洗</span>
+                <span class="glyphicon glyphicon-menu-right"></span>
+            </li>
+            <li class="banner_item">
+                <a href="#"></a>
+                <span>衣物洗护</span>
+                <span class="glyphicon glyphicon-menu-right"></span>
+            </li>
+            <li class="banner_item">
+                <a href="#"></a>
+                <span>搬家速运</span>
+                <span class="glyphicon glyphicon-menu-right"></span>
+            </li>
+            <li class="banner_item">
+                <a href="#"></a>
+                <span>美容美妆</span>
+                <span class="glyphicon glyphicon-menu-right"></span>
+            </li>
+            <li class="banner_item">
+                <a href="#"></a>
+                <span>鲜花绿植</span>
+                <span class="glyphicon glyphicon-menu-right"></span>
+            </li>
+            <li class="banner_item">
+                <a href="#"></a>
+                <span>上门医护</span>
+                <span class="glyphicon glyphicon-menu-right"></span>
+            </li>
+            <li class="banner_item">
+                <a href="#"></a>
+                <span>养车用车</span>
+                <span class="glyphicon glyphicon-menu-right"></span>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- 内容 -->
+<div class="container">
+    <div class="row text-center">
+        <h2 style="font-weight: bold;color:black">家庭保洁</h2>
+        <h3>
+            <a href="#">小时工</a>&nbsp
+            <a href="#">开荒保洁</a>&nbsp
+            <a href="#">擦玻璃</a>&nbsp
+            <a href="#">深度保洁</a>&nbsp
+            <a href="#">家具养护</a>&nbsp
+            <a href="#">杀除螨虫</a>&nbsp
+        </h3>
+        <span class="content-right"><a href="#">更多服务&gt</a></span>
+        <div class="content_serve">
+            <div>
+                <a href="#">
+                    <ul>
+                        <li><img src="img/serve01.jpg" alt=""></li>
+                        <li>
+                            <h4>超级管家Super Butler</h4>
+                            <p>服务时长:4小时/人/次；管家服务</p>
+                            <p>时间：8:00-12:00；14:00-18:00</p>
+                            <p style="margin-top: 23px;font-weight: bold"><span style="color: red;font-size: 18px">158</span><span style="color: red">元/4小时</span>&nbsp&nbsp<button class="btn btn-danger">查看详情</button></p>
+                        </li>
+                    </ul>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <ul>
+                        <li><img src="img/serve02.jpg" alt=""></li>
+                        <li>
+                            <h4>家庭保洁</h4>
+                            <p>家庭保洁服务，2小时其订。阿姨上门不带保洁工具，需用户...</p>
+                            <p style="margin-top: 23px;font-weight: bold"><span style="color: red;font-size: 18px">28</span><span style="color: red">元/4小时</span>&nbsp&nbsp<button class="btn btn-danger">查看详情</button></p>
+                        </li>
+                    </ul>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <ul>
+                        <li><img src="img/serve03.jpg" alt=""></li>
+                        <li>
+                            <h4>室内保洁</h4>
+                            <p>服务内容：1.室内保洁服务,2小时其顶，阿姨携带情节装备,...</p>
+                            <p style="margin-top: 23px;font-weight: bold"><span style="color: red;font-size: 18px">38</span><span style="color: red">元/小时</span>&nbsp&nbsp<button class="btn btn-danger">查看详情</button></p>
+                        </li>
+                    </ul>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <ul>
+                        <li><img src="img/serve04.jpg" alt=""></li>
+                        <li>
+                            <h4>家庭保洁</h4>
+                            <p>1.室内保洁服务,2小时其顶，服务商携带情节装备,...</p>
+                            <p style="margin-top: 23px;font-weight: bold"><span style="color: red;font-size: 18px">35</span><span style="color: red">元/小时</span>&nbsp&nbsp<button class="btn btn-danger">查看详情</button></p>
+                        </li>
+                    </ul>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <ul>
+                        <li><img src="img/serve05.jpg" alt=""></li>
+                        <li>
+                            <h4>日常保洁&nbsp小时工</h4>
+                            <p>服务内容：日常保洁,2个小时其顶，阿姨携带工具包括...</p>
+                            <p style="margin-top: 23px;font-weight: bold"><span style="color: red;font-size: 18px">35</span><span style="color: red">元/小时</span>&nbsp&nbsp<button class="btn btn-danger">查看详情</button></p>
+                        </li>
+                    </ul>
+                </a>
+            </div>
+        </div>
+        <div class="serve_list_text">
+
+                <a href="#">云家政</a>
+                <a href="#">来人到家</a>
+                <a href="#">超级阿姨</a>
+                <a href="#">宝宝天天乐</a>
+                <a href="#">杀虫QK哥</a>
+                <a href="#">金月时代</a>
+                <a href="#">家务宝</a>
+                <a href="#">洁美</a>
+                <a href="#">洁亿佳</a>
+                <a href="#">e家洁</a>
+                <a href="#">水净化除螨</a>
+                <a href="#">肯洁</a>
+                <a href="#">凤尾竹</a>
+                <a href="#">云家政</a>
+                <a href="#">来人到家</a>
+                <a href="#">超级阿姨</a>
+                <a href="#">宝宝天天乐</a>
+                <a href="#">杀虫QK哥</a>
+                <a href="#">金月时代</a>
+                <a href="#">家务宝</a>
+                <a href="#">洁美</a>
+                <a href="#">洁亿佳</a>
+                <a href="#">e家洁</a>
+                <a href="#">水净化除螨</a>
+                <a href="#">肯洁</a>
+                <a href="#">凤尾竹</a>
+
+        </div>
+    </div>
+</div>
+<div style="background:white">
+    <div class="container">
+        <div class="row text-center">
+            <h2 style="font-weight: bold;color:black">上门按摩</h2>
+            <h3>
+                <a href="#">小时工</a>&nbsp
+                <a href="#">开荒保洁</a>&nbsp
+                <a href="#">擦玻璃</a>&nbsp
+                <a href="#">深度保洁</a>&nbsp
+                <a href="#">家具养护</a>&nbsp
+                <a href="#">杀除螨虫</a>&nbsp
+            </h3>
+            <span class="content-right"><a href="#">更多服务&gt</a></span>
+            <div class="content_serve">
+                <div>
+                    <a href="#">
+                        <ul>
+                            <li><img src="img/serve01.jpg" alt=""></li>
+                            <li>
+                                <h4>超级管家Super Butler</h4>
+                                <p>服务时长:4小时/人/次；管家服务</p>
+                                <p>时间：8:00-12:00；14:00-18:00</p>
+                                <p style="margin-top: 23px;font-weight: bold"><span style="color: red;font-size: 18px">158</span><span style="color: red">元/4小时</span>&nbsp&nbsp<button class="btn btn-danger">查看详情</button></p>
+                            </li>
+                        </ul>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <ul>
+                            <li><img src="img/serve02.jpg" alt=""></li>
+                            <li>
+                                <h4>家庭保洁</h4>
+                                <p>家庭保洁服务，2小时其订。阿姨上门不带保洁工具，需用户...</p>
+                                <p style="margin-top: 23px;font-weight: bold"><span style="color: red;font-size: 18px">28</span><span style="color: red">元/4小时</span>&nbsp&nbsp<button class="btn btn-danger">查看详情</button></p>
+                            </li>
+                        </ul>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <ul>
+                            <li><img src="img/serve03.jpg" alt=""></li>
+                            <li>
+                                <h4>室内保洁</h4>
+                                <p>服务内容：1.室内保洁服务,2小时其顶，阿姨携带情节装备,...</p>
+                                <p style="margin-top: 23px;font-weight: bold"><span style="color: red;font-size: 18px">38</span><span style="color: red">元/小时</span>&nbsp&nbsp<button class="btn btn-danger">查看详情</button></p>
+                            </li>
+                        </ul>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <ul>
+                            <li><img src="img/serve04.jpg" alt=""></li>
+                            <li>
+                                <h4>家庭保洁</h4>
+                                <p>1.室内保洁服务,2小时其顶，服务商携带情节装备,...</p>
+                                <p style="margin-top: 23px;font-weight: bold"><span style="color: red;font-size: 18px">35</span><span style="color: red">元/小时</span>&nbsp&nbsp<button class="btn btn-danger">查看详情</button></p>
+                            </li>
+                        </ul>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <ul>
+                            <li><img src="img/serve05.jpg" alt=""></li>
+                            <li>
+                                <h4>日常保洁&nbsp小时工</h4>
+                                <p>服务内容：日常保洁,2个小时其顶，阿姨携带工具包括...</p>
+                                <p style="margin-top: 23px;font-weight: bold"><span style="color: red;font-size: 18px">35</span><span style="color: red">元/小时</span>&nbsp&nbsp<button class="btn btn-danger">查看详情</button></p>
+                            </li>
+                        </ul>
+                    </a>
+                </div>
+            </div>
+            <div class="serve_list_text">
+
+                <a href="#">云家政</a>
+                <a href="#">来人到家</a>
+                <a href="#">超级阿姨</a>
+                <a href="#">宝宝天天乐</a>
+                <a href="#">杀虫QK哥</a>
+                <a href="#">金月时代</a>
+                <a href="#">家务宝</a>
+                <a href="#">洁美</a>
+                <a href="#">洁亿佳</a>
+                <a href="#">e家洁</a>
+                <a href="#">水净化除螨</a>
+                <a href="#">肯洁</a>
+                <a href="#">凤尾竹</a>
+                <a href="#">云家政</a>
+                <a href="#">来人到家</a>
+                <a href="#">超级阿姨</a>
+                <a href="#">宝宝天天乐</a>
+                <a href="#">杀虫QK哥</a>
+                <a href="#">金月时代</a>
+                <a href="#">家务宝</a>
+                <a href="#">洁美</a>
+                <a href="#">洁亿佳</a>
+                <a href="#">e家洁</a>
+                <a href="#">水净化除螨</a>
+                <a href="#">肯洁</a>
+                <a href="#">凤尾竹</a>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row text-center">
+        <h2 style="font-weight: bold;color:black">上门维修</h2>
+        <h3>
+            <a href="#">小时工</a>&nbsp
+            <a href="#">开荒保洁</a>&nbsp
+            <a href="#">擦玻璃</a>&nbsp
+            <a href="#">深度保洁</a>&nbsp
+            <a href="#">家具养护</a>&nbsp
+            <a href="#">杀除螨虫</a>&nbsp
+        </h3>
+        <span class="content-right"><a href="#">更多服务&gt</a></span>
+        <!--服务项-->
+        <div class="content_serve">
+            <div>
+                <a href="#">
+                    <ul>
+                        <li><img src="img/serve01.jpg" alt=""></li>
+                        <li>
+                            <h4>超级管家Super Butler</h4>
+                            <p>服务时长:4小时/人/次；管家服务</p>
+                            <p>时间：8:00-12:00；14:00-18:00</p>
+                            <p style="margin-top: 23px;font-weight: bold"><span style="color: red;font-size: 18px">158</span><span style="color: red">元/4小时</span>&nbsp&nbsp<button class="btn btn-danger">查看详情</button></p>
+                        </li>
+                    </ul>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <ul>
+                        <li><img src="img/serve02.jpg" alt=""></li>
+                        <li>
+                            <h4>家庭保洁</h4>
+                            <p>家庭保洁服务，2小时其订。阿姨上门不带保洁工具，需用户...</p>
+                            <p style="margin-top: 23px;font-weight: bold"><span style="color: red;font-size: 18px">28</span><span style="color: red">元/4小时</span>&nbsp&nbsp<button class="btn btn-danger">查看详情</button></p>
+                        </li>
+                    </ul>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <ul>
+                        <li><img src="img/serve03.jpg" alt=""></li>
+                        <li>
+                            <h4>室内保洁</h4>
+                            <p>服务内容：1.室内保洁服务,2小时其顶，阿姨携带情节装备,...</p>
+                            <p style="margin-top: 23px;font-weight: bold"><span style="color: red;font-size: 18px">38</span><span style="color: red">元/小时</span>&nbsp&nbsp<button class="btn btn-danger">查看详情</button></p>
+                        </li>
+                    </ul>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <ul>
+                        <li><img src="img/serve04.jpg" alt=""></li>
+                        <li>
+                            <h4>家庭保洁</h4>
+                            <p>1.室内保洁服务,2小时其顶，服务商携带情节装备,...</p>
+                            <p style="margin-top: 23px;font-weight: bold"><span style="color: red;font-size: 18px">35</span><span style="color: red">元/小时</span>&nbsp&nbsp<button class="btn btn-danger">查看详情</button></p>
+                        </li>
+                    </ul>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <ul>
+                        <li><img src="img/serve05.jpg" alt=""></li>
+                        <li>
+                            <h4>日常保洁&nbsp小时工</h4>
+                            <p>服务内容：日常保洁,2个小时其顶，阿姨携带工具包括...</p>
+                            <p style="margin-top: 23px;font-weight: bold"><span style="color: red;font-size: 18px">35</span><span style="color: red">元/小时</span>&nbsp&nbsp<button class="btn btn-danger">查看详情</button></p>
+                        </li>
+                    </ul>
+                </a>
+            </div>
+        </div>
+        <div class="serve_list_text">
+
+            <a href="#">云家政</a>
+            <a href="#">来人到家</a>
+            <a href="#">超级阿姨</a>
+            <a href="#">宝宝天天乐</a>
+            <a href="#">杀虫QK哥</a>
+            <a href="#">金月时代</a>
+            <a href="#">家务宝</a>
+            <a href="#">洁美</a>
+            <a href="#">洁亿佳</a>
+            <a href="#">e家洁</a>
+            <a href="#">水净化除螨</a>
+            <a href="#">肯洁</a>
+            <a href="#">凤尾竹</a>
+            <a href="#">云家政</a>
+            <a href="#">来人到家</a>
+            <a href="#">超级阿姨</a>
+            <a href="#">宝宝天天乐</a>
+            <a href="#">杀虫QK哥</a>
+            <a href="#">金月时代</a>
+            <a href="#">家务宝</a>
+            <a href="#">洁美</a>
+            <a href="#">洁亿佳</a>
+            <a href="#">e家洁</a>
+            <a href="#">水净化除螨</a>
+            <a href="#">肯洁</a>
+            <a href="#">凤尾竹</a>
+
+        </div>
+    </div>
+</div>
+<!--底部-->
+<div style="background:white" class="footer">
+    <div class="container">
+        <div class="row text-center">
+            <h2 style="font-weight: bold;color: black">到位<span style="color: red">服务</span>保障</h2>
+            <h3>到位平台担保交易安全，交易未成功100%退还</h3>
+            <p style="padding-top: 10px">
+                <span><img src="img/anquan.jpg" alt="">&nbsp&nbsp优选服务</span>
+                <span><img src="img/anquan.jpg" alt="">&nbsp&nbsp全程保障</span>
+                <span><img src="img/anquan.jpg" alt="">&nbsp&nbsp安全无忧</span>
+            </p>
+        </div>
+        <div class="row city">
+            <div class="hot_city">热门城市</div>
+            <div class="city_item">
+                <p>
+                    <a href="#">北京</a>
+                    <a href="#">上海</a>
+                    <a href="#">广州</a>
+                    <a href="#">深圳</a>
+                    <a href="#">成都</a>
+                    <a href="#">天津</a>
+                    <a href="#">南京</a>
+                    <a href="#">杭州</a>
+                    <a href="#">重庆</a>
+                    <a href="#">苏州</a>
+                    <a href="#">武汉</a>
+                </p>
+                <p>
+                    <a href="#">北京</a>
+                    <a href="#">上海</a>
+                    <a href="#">广州</a>
+                    <a href="#">深圳</a>
+                    <a href="#">成都</a>
+                    <a href="#">天津</a>
+                    <a href="#">南京</a>
+                    <a href="#">杭州</a>
+                    <a href="#">重庆</a>
+                    <a href="#">苏州</a>
+                    <a href="#">武汉</a>
+                </p>
+                <p>
+                    <a href="#">北京</a>
+                    <a href="#">上海</a>
+                    <a href="#">广州</a>
+                    <a href="#">深圳</a>
+                    <a href="#">成都</a>
+                    <a href="#">天津</a>
+                    <a href="#">南京</a>
+                    <a href="#">杭州</a>
+                    <a href="#">重庆</a>
+                    <a href="#">苏州</a>
+                    <a href="#">武汉</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <h4 style="color: #0f0f0f;font-weight: bold">合作伙伴</h4>
+        <p class="merchant">
+            <a href="#"><img src="img/guanjia.jpg" alt=""></a>
+            <a href="#"><img src="img/lairen.jpg" alt=""></a>
+            <a href="#"><img src="img/meidao.jpg" alt=""></a>
+            <a href="#"><img src="img/qiaomao.png" alt=""></a>
+            <a href="#"><img src="img/kala.jpg" alt=""></a>
+            <a href="#"><img src="img/jiawu.png" alt=""></a>
+            <a href="#"><img src="img/hua.jpg" alt=""></a>
+            <a href="#"><img src="img/jiazheng.png" alt=""></a>
+            <a href="#"><img src="img/lairen.jpg" alt=""></a>
+        </p>
+        <p class="merchant">
+            <a href="#"><img src="img/guanjia.jpg" alt=""></a>
+            <a href="#"><img src="img/lairen.jpg" alt=""></a>
+            <a href="#"><img src="img/meidao.jpg" alt=""></a>
+            <a href="#"><img src="img/qiaomao.png" alt=""></a>
+            <a href="#"><img src="img/kala.jpg" alt=""></a>
+            <a href="#"><img src="img/jiawu.png" alt=""></a>
+            <a href="#"><img src="img/hua.jpg" alt=""></a>
+            <a href="#"><img src="img/jiazheng.png" alt=""></a>
+            <a href="#"><img src="img/lairen.jpg" alt=""></a>
+        </p>
+    </div>
+    <p>©2015 版权所有 到位 daoway.com 京ICP备15001471号-1 北京邻家科技有限公司</p>
+</div>
+<script src="bootstrap/js/jquery-1.11.3.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
