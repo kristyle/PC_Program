@@ -96,7 +96,8 @@
     background-color: #F2DEDE;
 }
 #password~h4>span{
-    margin-left: 110px;
+    float: right;
+    margin-right: 20px;
     color: #E3BEBE;
 }
 #password~h4>span:hover{

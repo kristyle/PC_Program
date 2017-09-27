@@ -47,7 +47,7 @@ margin: 10px auto;
     margin: 10px auto;
 }
 .right{
-    width: 203px;
+    width: 200px;
     height: 100%;
     float: left;
     overflow: hidden;
@@ -67,7 +67,7 @@ margin: 10px auto;
     padding-left: 10px;
 }
 .left{
-    width: 96px;
+    width: 99px;
     height: 100%;
     float: right;
     line-height: 100px;
@@ -90,6 +90,28 @@ margin: 10px auto;
 .agreement input,a{
     display: inline-block;
     float: left;
+}
+
+
+.agreement~h4{
+    width: 299px;
+    padding: 5px auto;
+    border-radius: 5px;
+    line-height: 54px;
+    padding-left: 10px;
+    color: #A94442;
+    background-color: #D9EDF7;
+}
+.agreement~h4>span{
+    float: right;
+    margin-right: 20px;
+    color: #E3BEBE;
+}
+.agreement~h4>span:hover{
+    color:#CCCCCC ;
+}
+.display{
+    display: none;
 }
 
 /*注册*/

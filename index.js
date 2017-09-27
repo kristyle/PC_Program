@@ -5,6 +5,26 @@ var express = require('express')
 var app  = express()
 app.use(express.static('public'))
 
+//验证码
+var sms_util=require('./sms_util')
+//随机数字
+var randomCode=sms_util.randomCode
+//发送验证码
+var sendCode=sms_util.sendCode
+
+var bodyParser = require('body-parser')
+app.use(bodyParser.urlencoded({extended:false}));
+
+//获取验证码
+app.post('/yanzhengma',function (req,res) {
+    var code=randomCode(6)
+    var phone=req.body.phone
+    console.log(phone)
+    sendCode(phone,code,function (success) {
+        
+    })
+    res.json(code)
+})
 
 
 //引入数据
@@ -38,6 +58,16 @@ app.get('/serveDetail',function (req,res) {
         first_item:first_item,
         third:third
     })
+})
+
+
+//注册手机号
+app.post('/register',function (req,res) {
+    //注册输入
+    var user_phone=req.body.user
+    var password_reg=req.body.password
+    console.log(user_phone,password_reg)
+    res.send('成功')
 })
 
 

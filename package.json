@@ -9,6 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.4"
+    "blueimp-md5": "^2.10.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.15.4",
+    "js-base64": "^2.3.2",
+    "moment": "^2.18.1",
+    "request": "^2.82.0"
   }
 }
